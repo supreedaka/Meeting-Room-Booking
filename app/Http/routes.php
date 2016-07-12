@@ -14,3 +14,15 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('issues/create', function () {
+    return view('issues.create');
+});
+
+Route::get('issues/edit', function () {
+    return view('issues.edit');
+});
+
+Route::get('issues/vote', function () {
+    return view('issues.vote');
+});
